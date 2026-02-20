@@ -1,0 +1,36 @@
+body {
+    font-family: 'Franklin Gothic Medium';
+    background: linear-gradient(90deg, rgba(255, 255, 0, 0.295), rgba(7, 7, 122, 0.473));
+}
+
+h1{
+    text-align: center;
+}
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.insTarea {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.completo {
+    text-decoration: line-through;
+    color: black;
+}
