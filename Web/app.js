@@ -39,6 +39,7 @@ function mostrarTareas() {
     tareas.forEach(tarea => {
 
         const li = document.createElement("li");
+        li.className = "list-group-item d-flex justify-content-between align-items-center";
 
         const span = document.createElement("span");
         span.textContent = tarea.texto;
