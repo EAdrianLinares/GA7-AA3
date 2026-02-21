@@ -103,3 +103,8 @@ document.getElementById("addBtn").addEventListener("click", () => {
 
 // Mostrar tareas al iniciar
 mostrarTareas();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js')
+    .then(() => console.log('Service Worker registrado'));
+}
